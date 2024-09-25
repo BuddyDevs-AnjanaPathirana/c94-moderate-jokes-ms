@@ -1,0 +1,29 @@
+{
+  "name": "c94-moderate-jokes-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuddyDevs-AnjanaPathirana/c94-moderate-jokes-ms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuddyDevs-AnjanaPathirana/c94-moderate-jokes-ms/issues"
+  },
+  "homepage": "https://github.com/BuddyDevs-AnjanaPathirana/c94-moderate-jokes-ms#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
