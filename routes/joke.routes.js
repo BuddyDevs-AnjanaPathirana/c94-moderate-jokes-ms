@@ -9,4 +9,6 @@ router.get('/jokes', verifyToken, jokeController.getPendingJoke);
 // Approve or reject a joke
 router.put('/jokes/:id', verifyToken, jokeController.moderateJoke);
 
+router.post('/jokes/createType', verifyToken, jokeController.createJokeType)
+
 module.exports = router;
